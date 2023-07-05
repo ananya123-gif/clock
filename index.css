@@ -1,0 +1,46 @@
+h1{
+    position: relative;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#clockContainer{
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+
+}
+
+#hour, #minute, #second{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour {
+    width: 2%;
+    height: 22%;
+    top: 28%;
+    left: 49%;
+}
+
+#minute {
+    width: 1.5%;
+    height: 31%;
+    top: 18%;
+    left: 49%;
+    opacity: 0.8;
+}
+
+#second {
+    width: 1%;
+    height: 36%;
+    top: 13%;
+    left: 49.5%;
+    opacity: 0.5;
+}
